@@ -22,6 +22,7 @@ import { WeeklyProgressComponent } from './weekly-progress/weekly-progress.compo
 import { AchievementListComponent } from './pages/achievement-list/achievement-list.component';
 import { LevelUpModalComponent } from './pages/level-up-modal/level-up-modal.component';
 
+import { HomeComponent } from './pages/home/home.component';
 import { TasksComponent } from './pages/tasks/tasks.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
 import { CalendarComponent } from './pages/calendar/calendar.component';
@@ -38,7 +39,14 @@ import {
   CalendarDays,
   ChartNoAxesColumn,
   Trophy,
-  Settings as SettingsIcon
+  Settings as SettingsIcon,
+  Search,
+  Plus,
+  Sun,
+  Bell,
+  UserRound
+  
+
 } from 'lucide-angular';
 
 export function playerFactory() {
@@ -50,6 +58,7 @@ export function playerFactory() {
     AppComponent,
     SidebarComponent,
     HeaderComponent,
+    HomeComponent,
     MainLayoutComponent,
     HeroBannerComponent,
     LevelCardComponent,
@@ -79,7 +88,13 @@ export function playerFactory() {
       CalendarDays,
       ChartNoAxesColumn,
       Trophy,
-      Settings: SettingsIcon
+      Settings: SettingsIcon,
+
+        Search,
+  Plus,
+  Sun,
+  Bell,
+  UserRound
     }),
 
     LottieModule.forRoot({

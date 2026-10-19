@@ -1,1 +1,46 @@
-<p>header works!</p>
+
+<header class="flex items-center justify-between gap-4 border-b border-purple-100 bg-white px-6 py-4">
+
+  
+  <div class="flex w-full max-w-md items-center gap-3 rounded-full bg-purple-50 px-4 py-3">
+    <i-lucide name="search" class="text-gray-500"></i-lucide>
+
+    <input
+      type="text"
+      placeholder="Search tasks, projects..."
+      class="w-full bg-transparent text-sm text-gray-700 outline-none placeholder:text-gray-400"
+    />
+  </div>
+
+  
+  <div class="flex shrink-0 items-center gap-5">
+
+    <button
+      class="flex items-center gap-2 rounded-full bg-purple-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-purple-700"
+    >
+      <i-lucide name="plus"></i-lucide>
+      Add
+    </button>
+
+    <button class="text-gray-600 transition hover:text-purple-600">
+      <i-lucide name="sun"></i-lucide>
+    </button>
+
+    <button class="relative text-gray-600 transition hover:text-purple-600">
+      <i-lucide name="bell"></i-lucide>
+    </button>
+
+    <div class="flex items-center gap-3">
+      <div class="flex h-10 w-10 items-center justify-center rounded-full bg-purple-100 text-purple-700">
+        <i-lucide name="user-round"></i-lucide>
+      </div>
+
+      <div>
+        <p class="text-sm font-semibold text-gray-800">Priya</p>
+        <p class="text-xs text-gray-500">Level 1</p>
+      </div>
+    </div>
+
+  </div>
+
+</header>
